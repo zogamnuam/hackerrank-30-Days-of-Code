@@ -1,3 +1,5 @@
+package day3;
+
 import java.util.Scanner;
 
 /*Given an integer, , perform the following conditional actions:
@@ -7,7 +9,7 @@ import java.util.Scanner;
     If n is even and greater than 20, print Not Weird
 */
 
-public class Solution {
+public class Solution2 {
     private static final Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         int N = scanner.nextInt();
